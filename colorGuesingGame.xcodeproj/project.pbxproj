@@ -10,7 +10,6 @@
 		69F4261B22F208C0008A4EE9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F4261A22F208C0008A4EE9 /* Model.swift */; };
 		85919E3D22F0CFF80054BC42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85919E3C22F0CFF80054BC42 /* AppDelegate.swift */; };
 		85919E3F22F0CFF80054BC42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85919E3E22F0CFF80054BC42 /* ViewController.swift */; };
-		85919E4222F0CFF80054BC42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85919E4022F0CFF80054BC42 /* Main.storyboard */; };
 		85919E4422F0CFFA0054BC42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85919E4322F0CFFA0054BC42 /* Assets.xcassets */; };
 		85919E4722F0CFFA0054BC42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85919E4522F0CFFA0054BC42 /* LaunchScreen.storyboard */; };
 		85919E5222F0CFFA0054BC42 /* colorGuesingGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85919E5122F0CFFA0054BC42 /* colorGuesingGameTests.swift */; };
@@ -42,7 +41,6 @@
 		85919E3922F0CFF80054BC42 /* colorGuesingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colorGuesingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85919E3C22F0CFF80054BC42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85919E3E22F0CFF80054BC42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		85919E4122F0CFF80054BC42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85919E4322F0CFFA0054BC42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85919E4622F0CFFA0054BC42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85919E4822F0CFFA0054BC42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -107,7 +105,6 @@
 			children = (
 				85919E3C22F0CFF80054BC42 /* AppDelegate.swift */,
 				85919E3E22F0CFF80054BC42 /* ViewController.swift */,
-				85919E4022F0CFF80054BC42 /* Main.storyboard */,
 				85FD130322F0EBE4002330FA /* incrementer.swift */,
 				85FD130122F0D2B0002330FA /* RGB-Value.swift */,
 				85FD130522F1205F002330FA /* Emojis.swift */,
@@ -243,7 +240,6 @@
 			files = (
 				85919E4722F0CFFA0054BC42 /* LaunchScreen.storyboard in Resources */,
 				85919E4422F0CFFA0054BC42 /* Assets.xcassets in Resources */,
-				85919E4222F0CFF80054BC42 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,14 +305,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		85919E4022F0CFF80054BC42 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				85919E4122F0CFF80054BC42 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		85919E4522F0CFFA0054BC42 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
